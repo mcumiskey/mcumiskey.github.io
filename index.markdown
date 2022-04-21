@@ -4,3 +4,4 @@
 
 layout: home
 ---
+This is a test of hosting with jekyll. 
