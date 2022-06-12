@@ -3,10 +3,9 @@
 markdown: kramdown
 permalink: pretty
 
-port: 8000
+port: 4000
 
 include: ['_includes/work']
-exclude: ['the_design.psd']
 
 sass:
   sass_dir: assets/css

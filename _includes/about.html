@@ -1,42 +1,47 @@
-<section>
 
-  <h3 id="about-me">About Myself</h3>
+<div class="main">
+  <h1>Hi! I'm Miles</h1>
 
-  <div class="face-lockup">
+  <p>I am a carpenter, programmer, and technical artist who builds tools and shaders for games and digital media. I have a passion for accessibility in gaming (and everywhere else) and a love for making silly projects with friends.</p>
+  <p>As an undergrad, I was co-president of TCNJ’s chapter of ACM SIGGRAPH for 2 years, a master carpenter for TCNJ’s theater organizations, and a volunteer at Trenton Animal Shelter.</p>
 
-    <div class="face-img"></div>
-
-    <div class="icon-pencil">{% include icons/icon-pencil.html %}</div>
-    <div class="icon-mouse">{% include icons/icon-mouse.html %}</div>
-    <div class="icon-browser">{% include icons/icon-browser.html %}</div>
-    <div class="icon-video">{% include icons/icon-video.html %}</div>
-
+  <div class = "section-1">
+      <h2>Skills</h2>
+      <p>Programming Languages - Java | C++ | C# | Git | P5.js / Processing | HTML and CSS | Swift and Swift UI | HLSL</p>
+      <p>Software - Adobe Creative Suite | Microsoft Excel, PowerPoint, and Word | Blender | Maya | ZBrush | Fusion360 | Solidworks | Github | Unity [2D and 3D Game Development] | Godot </p>
+      <p>Certifications - New Jersey Substitute Teacher License</p>
   </div>
-
-
-  <div class="blurb">
-    {{ site.data.settings.blurb | markdownify }}
+  <div class="section-2">
+  <h2>Education</h2>
+      <h3> College of New Jersey - B.A. Interactive Multimedia </h3>
+          <p>3.736 GPA – Game Design, Software Engineering, Human-Computer Interaction, and 3D design. </p>
+      <h3>Oxford University - Visiting Student at Worcester College</h3>
+          <p>Computer Graphics and Design and Design and Analysis of Algorithms</p>
   </div>
-
-  {% if site.data.settings.skills %}
-
-  <div class="skill-lockup">
-
-    {% for skill in site.data.settings.skills %}
-
-      <div class="skill-unit">
-        <div class="skill-label">{{ skill.name }}</div>
-        <div class="skill-icons skill-{{ skill.value }}">
-          {% for i in (1..10) %}
-            <span></span>
-          {% endfor %}
-        </div>
-      </div>
-
-    {% endfor %}
-
+  <div class="section-1">
+  <h2>Experience</h2>
+      <h3>Summit NJ, School District –  Technical Director </h3>
+      <p>Part Time| January 2022 – March 2022</p>
+      <p>Instructed a group of students in the construction of a set a middle school production of Cinderella.</p>
+  <h3>Game-U – Game Design & 3D Modeling Instructor </h3>
+      <p>Instructor | August 2021 – Present </p>
+      <p>Teach programming, Game Design, 3D modeling, and more to students with disabilities. Also assisted development on the Game-U Scan-to-Asset workflow, exploring different photogrammetry methods and how they could be utilized in education. </p>
+  <h3>The College of New Jersey – Student Representative and IT Support </h3>
+       <p>Student Worker | January 2018 – May 2021</p>
+      <p>Help staff members and students to troubleshoot technical problems, represent the Interactive Multimedia major and answer questions for incoming students.</p>
+  <h3>Oxford Communications – Intern </h3>
+      <p>Intern | Sept 2020 – Feb 2021</p>
+      <p>Data analysis and web design for various advertising campaigns. Created aggregate reports and validated data.</p>
+  <h3>Fresh Start: Mindful Drinking Experience – Lead Programmer </h3>
+      <p>MUSE Student | Feb 2019 – Feb 2021</p> 
+      <p>Game designer and artist for an educational video game made in Unity. Used C# scripting to create and organize scenes, dialogue, and mini games, and collaborated with public health students to apply quantitative research to the game experience. Our work was published at the 2020 DIGRA Convention: http://www.digra.org/digital-library/publications/fresh-start-an-innovative-video-game-to-educate-first-year-college-students-about-mindful-drinking/</p>
   </div>
+  <div class="section-2">
 
-  {% endif %}
-
-</section>
+  <h2>Other Experience</h2> 
+  <h3>ACM SIGGRAPH- TCNJ Chapter Co-President </h3>
+  <p>Managed a chapter of the Association for Computing Machinery's Special Interest Group on Computer Graphics and Interactive Techniques (ACM SIGGRAPH). Notable events include: hosting creative coding workshops and demonstrations, creating designs in Illustrator for screen printing, making custom Lego pieces in Fusion 360, and organizing and developing our annual art show “Haunted Hallway”. </p>
+  <h3>All College Theatre- Master Carpenter </h3>
+  <p> sets, furniture, and created interactive props in collaboration with other students for plays and musicals. Also taught assistants workshop safety and construction basics, and ensured a safe working environment.</p>
+  </div>
+</div>
