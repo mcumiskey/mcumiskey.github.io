@@ -1,16 +1,18 @@
 #-------------------------------
 # General Site Settings
 
-title: Artists Theme
-description: Thinker // Designer // YouTuber
-email: devtipsfordesigners@gmail.com
+title: Miles Cumiskey 
+description: Multidisiplinary Designer and Developer
+email: milescumiskey@gmail.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: About Me, url: '#about-me'}
-- {name: Work, url: '#work'}
-- {name: Clients, url: '#clients'}
+- {name: 3D Models and Rigs, url: '#3D'}
+- {name: Programming, url: '#code'}
+- {name: Technical Writing, url: '#writing'}
+- {name: Other Work, url: '#other'}
+- {name: About, url: '#about'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -19,9 +21,9 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Provide a description for your website to make it visible to search engines.'
-  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
-  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  description: 'A portfolio website for Miles Cumiskey, technical 3D artist and programmer.'
+  rel-author: 'https://github.com/mcumiskey'
+  rel-publisher: 'https://github.com/mcumiskey'
 
 #-------------------------------
 # Google Analytics Section
@@ -39,21 +41,8 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **Travis specializes in making things** for human people.
-  Most of the things he makes are [digital interfaces](http://travisneilson.com){:target="_blank"},
-  but he also puts effort into crafting [next-level beats](http://soundcloud.com/travis-neilson){:target="_blank"}
-  and [YouTube videos](http://youtube.com/user/devtipsfordesigners){:target="_blank"} about making codes happen.
+  **I am a technical artist and programmer, with a wide variety of skills that combine coding with creative work. I have experience in C++, C#, Java, HLSL, Unity, and Godot. I am also well-versed in 3D modeling, using Maya, Blender, Fusion360, and Solidworks for various projects. My focus is on UV mapping and retopology, but I am a jack of many trades, and am always learning more. Outside of tech, I am passionate about carpentry, education, and tabletop games.
 
-
-skills:
-- {name: Communication, value: '9'}
-- {name: Organization, value: '7'}
-- {name: Learning, value: '10'}
-- {name: Teaching, value: '6'}
-- {name: Planning, value: '7'}
-- {name: Visual Design, value: '5'}
-- {name: UX Design, value: '8'}
-- {name: Programming, value: '6'}
 
 #-------------------------------
 # Work Section
@@ -68,44 +57,14 @@ projects:
 - {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
 - {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
 
-
-
-
-#-------------------------------
-# Clients Section
-
-clients:
-- {avatar: 'face-aaroni.jpg',
-  name: 'Scott Summers',
-  title: 'Director of Design, OnToText Ind.',
-  quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
-  logo: 'logo1.png'}
-- {avatar: 'face-atariboy.jpg',
-  name: 'Hank McCoy',
-  title: 'Eater of Salad, Antartica Int.',
-  quote: '<p><strong>Working with Travis was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
-  logo: 'logo2.png'}
-- {avatar: 'face-jackiesaik.jpg',
-  name: 'Stacy Lang',
-  title: 'Social Media Girl, Quebec Int.',
-  quote: '<p><strong>Yea, I guess hes good at computers or something,</strong> but let me ask you this: If a cat always lands on its feet, and buttered bread always lands butter side down, what would happen if you tied buttered bread on top of a cat?</p>',
-  logo: 'logo3.png'}
-- {avatar: 'face-teleject.jpg',
-  name: 'Cleatus Cassidy',
-  title: 'VP of Helmut, Lorem Sorem LLC.',
-  quote: '<p><strong>Back in old country</strong> only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.</p>',
-  logo: 'logo4.png'}
-
-
 #-------------------------------
 # Contact Section
 
 social:
-- {icon: 'twitter', link: 'http://twitter.com/devtipsshow'}
-- {icon: 'dribbble', link: 'https://dribbble.com/travisneilson'}
-- {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
-- {icon: 'youtube', link: 'https://www.youtube.com/DevTipsForDesigners'}
-- {icon: 'linkedin', link: 'http://www.linkedin.com/in/travisneilson/'}
+- {icon: 'twitter', link: 'https://twitter.com/milesmeters'}
+- {icon: 'instagram', link: 'https://www.instagram.com/miles.meters/'}
+- {icon: 'youtube', link: 'https://www.youtube.com/channel/UC3VCHLBmL6quSiSooXzsvTA'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/miles-cumiskey/'}
 
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
