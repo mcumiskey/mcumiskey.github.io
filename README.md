@@ -1,8 +1,13 @@
-Miles Cumiskey Portfolio Site
+DevTips-Starter-Kit (Jekyll Friendly)
 ===================
 
-A simple portfolio site for my work in various diciplines. 
+Use this as a simple structure for a simple start to a simple site.
 
-Fonts used: 
-- https://fonts.google.com/specimen/Atkinson+Hyperlegible#type-tester
-Hero Image courtesy of <a href="https://gratisography.com">Gratisography</a>, can be found here: https://gratisography.com/photo/animal-crackers/
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=GTBaQ2DcGUk
+" target="_blank">
+Watch the video on YouTube
+<img src="thumbnail.png" 
+alt="Watch the video on youtube" />
+
+</a>

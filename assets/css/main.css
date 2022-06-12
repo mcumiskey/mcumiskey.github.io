@@ -143,10 +143,10 @@ td, th {
   padding: 0; }
 
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local("Atkinson Hyperlegible"), local("AtkinsonHyperlegible"), url(//themes.googleusercontent.com/static/fonts/AtkinsonHyperlegible/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
+  src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: #bd5248;
@@ -218,10 +218,10 @@ body {
   -webkit-tap-highlight-color: #fff498; }
 
 body {
-  background: #ffffff;
+  background: #f6f6f8;
   font-size: 14px;
   line-height: 1.6;
-  font-family: "Atkinson Hyperlegible" sans-serif;
+  font-family: "Open Sans" sans-serif;
   color: #2e2d33;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }

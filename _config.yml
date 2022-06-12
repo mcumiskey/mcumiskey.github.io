@@ -3,7 +3,7 @@
 markdown: kramdown
 permalink: pretty
 
-port: 4000
+port: 3000
 
 sass:
   sass_dir: assets/css
