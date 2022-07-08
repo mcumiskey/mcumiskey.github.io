@@ -61,6 +61,7 @@ projects:
 # Contact Section
 
 social:
+- {icon: 'github', link: 'https://github.com/mcumiskey'}
 - {icon: 'twitter', link: 'https://twitter.com/milesmeters'}
 - {icon: 'instagram', link: 'https://www.instagram.com/miles.meters/'}
 - {icon: 'youtube', link: 'https://www.youtube.com/channel/UC3VCHLBmL6quSiSooXzsvTA'}
