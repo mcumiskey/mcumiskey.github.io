@@ -1,3 +1,0 @@
-I am a carpenter, programmer, and technical artist who builds tools and shaders for games and digital media. I have a passion for accessibility in gaming (and everywhere else) and a love for making silly projects with friends.
-
-As an undergrad, I was co-president of TCNJ’s chapter of ACM SIGGRAPH for 2 years, a master carpenter for TCNJ’s theater organizations, and a volunteer at Trenton Animal Shelter.
