@@ -2,82 +2,60 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Miles Cumiskey
     - name: Languages
-      value: English, German
+      value: English, American Sign Language
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: BA Interactive Multimedia 
+      institution: The College of New Jersey 
+      year: 2021
       description:
         - Description 1.
         - Description 2.
         - title: Description 3.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Senior Thesis: https://www.immseniorshow.com/miles-cumiskey 
+            - Notable Coursework includes Game Design and Architecture, Web Design, Writing for Interactive Media, Human-Computer Interaction, and 3D Modeling and Animation.  
+    - title: Visiting Student
+      institution: Oxford University - Worcester College
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Convex Hull algorithm? 
+        - Studied Computer Graphics, Geometric Modeling, Design and Design and Analysis of Algorithms
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Americorps VISTA for Digital Inclusion
+      institution: Drexel University
+      year: July 2023– June 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Create data-driven reports for the Drexel Digital Navigator nonprofit for use in grant reporting 
+        - Develop curriculum and teach essential computer skills for adults and middle schoolers
+
+    - title: Game Design & 3D Modeling Instructor
+      institution: Game-U
+      year: August 2021 – Present 
       description:
-        - Description 1.
-        - Description 2.
+        - Teach disabled adults programming, game design, 3D modeling, and digital art
+        - Adapt industry-standard software for use with assistive technology such as screen readers and alternative input devices
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Intern
+      institution: Oxford Communications 
+      year: September 2020 – February 2021
+        - Aggregated reports from Google Analytics advertising campaigns to and validated randomly sampled data sets assure accuracy
+        - Authored web content and copy for client websites 
+        - Performed quality reviews of websites to ensure compliance with project plan scope and requirements
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list

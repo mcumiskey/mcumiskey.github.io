@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mcumiskey
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - mcumiskey/Donsol
+  - mcumiskey/Northstar_Custom_Data_Collection
+  - mcumiskey/Raining-Men-Weather-App
+  - mcumiskey/Toon_Tests
+
