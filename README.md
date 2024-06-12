@@ -1,9 +1,4 @@
-# al-folio
-
-Miles Cumiskey Portfolio
-
-**A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
-
+# Miles Cumiskey Portfolio
 
 ## License
 
