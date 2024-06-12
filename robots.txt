@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mcumiskey.github.io/al-folio/sitemap.xml
+Sitemap: https://mcumiskey.github.io//sitemap.xml
