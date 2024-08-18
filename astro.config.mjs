@@ -7,4 +7,5 @@ export default defineConfig({
 	site: 'https://mcumiskey.github.io',
 	base: '',
 	integrations: [tailwind()],
+	config: pnpm(),
 });
