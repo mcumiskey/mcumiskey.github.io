@@ -1,0 +1,16 @@
+[
+    {
+        "dates": "August 2024 · November 2024",
+        "role": "Data Science",
+        "company": "Flatiron School",
+        "description": "Learned techniques to analyze, visualize, and interpret complex data sets using tools like Python, Pandas, and Matplotlib.",
+        "logo": "/assets/images/experiences/flatironschool.png"
+    },
+    {
+        "dates": "2018 · 2021",
+        "role": "Interactive Multimedia",
+        "company": "The College of New Jersey",
+        "description": "Notable Coursework includes Game Design and Architecture, Web Design, Writing for Interactive Media, Human-Computer Interaction, and 3D Modeling and Animation.",
+        "logo": "/assets/images/experiences/tcnj.jpg"
+    }
+]

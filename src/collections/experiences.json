@@ -1,0 +1,23 @@
+[
+	{
+		"dates": "2021 · Present ",
+		"role": "Game Design Instructor",
+		"company": "Game-U",
+		"description": "Teach game design classes, adapting industry-standard software for use with assistive technology such as screen readers and alternative input devices.",
+		"logo": "/assets/images/experiences/gameU.png"
+	},
+	{
+		"dates": "July 2023 · June 2024",
+		"role": "Americorps VISTA for Digital Inclusion",
+		"company": "Drexel University",
+		"description": "Created data-driven reports for the Drexel Digital Navigator nonprofit for use in grant reporting.",
+		"logo": "/assets/images/experiences/drexel.png"
+	},
+	{
+		"dates": "2021 · Present ",
+		"role": "Intern",
+		"company": "Oxford Communications",
+		"description": "Teach game design classes, adapting industry-standard software for use with assistive technology such as screen readers and alternative input devices.",
+		"logo": "/assets/images/experiences/OX.png"
+	}
+]
