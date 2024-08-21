@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/post.astro
-title: Aria - a minimalist Astro homepage template
+title: Example 2
 description: Aria is a template for Astro
 dateFormatted: Jun 6th, 2024
 ---
