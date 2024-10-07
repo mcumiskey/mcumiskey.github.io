@@ -9,7 +9,7 @@ dateFormatted: May 31st, 2021
 
 Fresh Start is a multidisciplinary public health projects aimed towards teaching college students 'mindful' drinking strategies through a narrative game as an alternative alcohol education program. The project was began by Dr. Yifeng Hu and Professor Josh Fishburn.
 
-![Team Photo](public/assets/images/posts/fs_team.jpg)
+![Team Photo](/public/assets/images/posts/fs_team.jpg)
 
 *All screenshots are from the 2019 build of the project. The project remains a collaborative effort, and does not represent the work of one student. However, pieces that I worked on are highlighted.*
 
@@ -32,7 +32,7 @@ I​​​​​​ served as a programming generalist, helping out with various
 
 My initial project was the 'Drink Pouring Game'
 
-![Alcohol Pouring Game](public/assets/images/posts/fs_drinkgame.png)
+![Alcohol Pouring Game](/public/assets/images/posts/fs_drinkgame.png)
 
 The educational goal of this mini-game is to teach people how much alcohol is in one 'standard drink', as defined by the National Institute of Health. A red solo cup is used for approximate measuring, and to give college students a frame of reference. 
 
@@ -40,7 +40,7 @@ The game teaches through trial-and-error, with a focus on giving feedback so pla
 
 I also developed a mini-quiz to evaluate user learning at different narrative stages. 
 
-![Quiz Game](public/assets/images/posts/fs_mini_quiz.png)
+![Quiz Game](/public/assets/images/posts/fs_mini_quiz.png)
 
 Once again, the design is focused on trial-and-error, and players are not scored, just given feedback and new opportunities. 
 
@@ -48,8 +48,8 @@ Once again, the design is focused on trial-and-error, and players are not scored
 
 As a multidisciplinary team member, I was responsible for background design, asset creation for all mini-games, and assisting our character artist.
 
-![TCNJ Dorms](public/assets/images/posts/fs_background.png)
+![TCNJ Dorms](/public/assets/images/posts/fs_background.png)
 
-![Off-Campus Party Kitchen](public/assets/images/posts/fs_background_party.png)
+![Off-Campus Party Kitchen](/public/assets/images/posts/fs_background_party.png)
 
-![Suggestions for adding more diversity in the characters](public/assets/images/posts/fs_diversity.png)
+![Suggestions for adding more diversity in the characters](/public/assets/images/posts/fs_diversity.png)
