@@ -17,18 +17,20 @@ Milk Jawn makes fantastic ice cream. It is currently my favorite in Philly due t
 I believe Milk Jawn has something for everyone. They have fruity ice cream, non-dairy options, interesting takes on classic choices, and are just genuinely very good. 
 
 # [1-900-ICE-CREAM](https://1900icecream.com/) ★★★☆☆ (3/5)
-**Flavors Sampled:** Vietnamese Coffee Crunch (ice cream bar - divided in four and shared), Apple Cider Donut, Oatmeal Cream Supreme 
+**Flavors Sampled:** Vietnamese Coffee Crunch (ice cream bar - divided in four and shared), Apple Cider Donut, Oatmeal Cream Supreme, Graham Cracker 
 
 1-900-Ice-Cream is a delight to visit because the flavors change so often. There is always something new to try, and they get bonus points for offering unique flavors of soft serve and ice cream sandwiches. 
 
 That being said, 1-900 is INCREDIBLY sweet, and the mix-ins can make the scoops very dense. It has made a lot of the flavors hit-or-miss for me. I have yet to finish anything from 1-900 alone: it either needs to be wrapped up and finished later, or shared with a friend. 
+
+Probably the ideal place to take a child under 16. 
 
 # [Vita](https://www.vitainphilly.com/) ★★★★★ (5/5)
 **Flavors Sampled:** Lemon Sorbetto, Passion Fruit 
 
 Vita is a gelateria with a neat speakeasy behind their red door. While I have yet to try their secret italian food, their gelato offerings have been incredibly good. 
 
-I would recommend their fruity flavors. 
+I would recommend their fruity flavors over the basic chocolates and vanillas. 
 
 # [Van Leeuwen](https://vanleeuwenicecream.com/) ★★★☆☆ (3/5)
 **Flavors Sampled:** Earl Grey Tea, Brown Sugar Chunk   
@@ -45,6 +47,11 @@ Unlike Vita, I have had Gran Caffe's (non-secret) italian food, and they have a 
 Their gelato offerings do not change often, but their flavors are all very well-balanced and high quality. I believe in choosing the options that sound most italian, but always ask the server their favorites. No one has led me astray yet!
 
 # Jeni’s ★★★★☆ (4/5)
+**Flavors Sampled:** I've Had So Many Oh No 
 
-Fun seasonal varieties, good texture, good flavor. Genuinely enjoyable. 
+Jeni's has fun seasonal varieties, good texture, good flavor. It's genuinely enjoyable ice cream that comes with two little waffle pieces, which are perfect. 
+
+It's not a local brand, but it's in a very convenient location for quick pick up ice creams. 
+
+Darkest chocolate is specifically good to have as a pint for milkshakes. 
 
