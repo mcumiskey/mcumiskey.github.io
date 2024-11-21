@@ -1,11 +1,5 @@
 [
 	{
-		"name": "Meeple Matchmaker: Python Recomender System",
-		"description": "Hybrid recomendation system to reccomend games using data from Board Game Geek.",
-		"image": "/assets/images/projects/meeple_cover.png",
-		"url": "https://github.com/mcumiskey/Meeple-Matchmaker?tab=readme-ov-file"
-	},
-	{
 		"name": "Donsol - IOS Implementation",
 		"description": "Recreation of the Card Game by John Eternal",
 		"image": "/assets/images/projects/Donsol.png",

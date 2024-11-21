@@ -55,25 +55,3 @@ It's not a local brand, but it's in a very convenient location for quick pick up
 
 Darkest chocolate is specifically good to have as a pint for milkshakes. 
 
-# Franklin Fountain ★★★★☆ (4/5)
-**Flavors Sampled:** Matcha (no samples available :() 
-
-Franklin Fountain is a very cute location with some fun seasonal flavors (including corn in fall 2024 when I visited!)
-
-However, there is no taste testing. Only commitment. 
-
-Their matcha was good, it was a little gritty compared to my partner's cotton candy scoop, and their ice cream is thick but not overly sweet. I think it's definitely a fun local to check out, but a little out of my way so I don't think I'll be a regular. 
-
-
-# Places I want to Try
-- Float Dreamery 
-- Bassetts 
-- Vanderwendes
-- Tubby Robot 
-- Scoop DeVille 
-- Matcha Cafe Mako 
-- Over The Moon 
-- La Michoacán Ice Cream 
-
-# Need to add Review: 
-- Wickerly 
