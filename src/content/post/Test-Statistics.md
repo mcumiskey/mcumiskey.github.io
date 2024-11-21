@@ -56,6 +56,10 @@ We calculate z-scores with the following formula:
 
 Where $\bar{x}$ is the sample mean, $\mu$ is the sample mean, and $\sigma$ is the size of the sample. 
 
+**Null hypothesis:** The population mean is **equal** to a specific value. 
+
+**Alternative hypothesis**: The population mean is **different** from the known value (two-tailed), or it is greater than or less than the known value (one-tailed).
+
 ```python
 from scipy.stats import norm
 import math
@@ -73,6 +77,12 @@ sigma = 5.4
 z = (x - mu) / (sigma / math.sqrt(n))
 print(f'The associated z score is {round(z, 4)}')
 ```
+```
+The associated z score is -0.6086
+```
+
+A z-score of -0.6086 means the value is 0.6086 standard deviations below the mean of the distribution. In simpler terms, this data point lies a bit less than 0.61 standard deviations to the left of the average value of the distribution.
+
 
 ## Interpreting and using Z-scores
 
@@ -82,36 +92,98 @@ We now have our z-score! Wooooooooo!!!
 - **Negative z-score:** The individual value is less than the mean.
 - **A z-score of 0:** The individual value is equal to the mean.
 
-This does not give us a TON of useful information, so now we will use our z-score to find our P-score
+This does not give us a TON of useful information, so now we will use our z-score to find our **P-value**.
+
+## P-Values
+
+The p-value is a probability measure used in hypothesis testing to determine the significance of results. It represents the likelihood of obtaining a result at least as extreme as the one observed, given that the null hypothesis is true.
+
+**Low p-value (≤ 0.05):** Suggests strong evidence against the null hypothesis, meaning the result is statistically significant.
+
+**High p-value (> 0.05)**: Suggests weak evidence against the null hypothesis, meaning the result is not statistically significant.
+
+For example, if you were testing whether a new drug is effective, a p-value of 0.03 would suggest that there is only a 3% chance that the observed effect was due to random chance, thus providing evidence that the drug has an effect.
 
 ```python
-stats.norm.cdf(z-score)
+#Use stats .cdf (Cumulative Density Function)
+p-score = stats.norm.cdf(z-score)
 
-left = norm.cdf(z)
-right = norm.sf(z)
+left = stats.norm.cdf(z)
+# Can also be calculated as 1 - stats.norm.cdf(z)
+right = stats.norm.sf(z)
 
 print(f'The probability on the left and right tails:\
       ({round(left, 4)}, {round(right, 4)})')
 ```
-The associated z score is -0.6086
-The probability on the left and right tails: (0.2714, 0.7286)
+
+```
+The probability on the left and right tails: 0.2714, 0.7286
+```
+
+This means the p-value (or the probability associated with this z-score) is approximately 0.2714. This tells us that about 27.14% of the values in a standard normal distribution are less than -0.6086.
+
+Tails are used when the alternative hypothesis contains something "greater than" or "less than", which means that we are looking at the area under the curve in two places, one on each side. Our normal p-score is the left tail!
+
 
 # T-Tests
-1-Sample T-Test
+## 1-Sample T-Tests 
 - One sample compared to an unknown population 
-- **OR** the sample you are trying to compare to the population is small (less than 30)
+- **OR** the sample you are trying to compare to a small population (less than 30)
+>  .
+> $$\large t = \frac{\bar{x}-\mu}{\frac{s}{\sqrt{n}}}$$
+>  .
 
-[ADD FORMULA]
+**Null hypothesis:** The sample mean is **equal** to the population mean.
 
-2-Sample T-Test *(The most important T-Test)*
+**Alternative hypothesis**: The sample mean is **not equal** to the population mean.
+
+## 2-Sample T-Tests *(The most important T-Test)*
 - Comparing sample 1 to sample 2
 - **“Is the mean of the x sample significantly different than the mean of the y sample.”**
 
-[ADD FORMULA]
+>  .
+> 
+> $$ t = \frac{\bar{x_1} - \bar{x_2}}{\sqrt{s^2 \left( \frac{1}{n_1} + \frac{1}{n_2} \right)}}$$
+>
+> where $s^2$ is the pooled sample variance:
+>
+> $$ s^2 = \frac{\sum_{i=1}^{n_1} \left(x_i - \bar{x_1}\right)^2 + \sum_{j=1}^{n_2} \left(x_j - \bar{x_2}\right)^2 }{n_1 + n_2 - 2} $$
+>  .
 
-[ADD NULL / ALTERNATIVE HYPOTHESIS]
 
-[ADD CODE EXAMPLE]
+**Null hypothesis:** The two group means are **equal**.
+
+**Alternative hypothesis:** The two group means are not **equal**.
+
+```
+# Sample data for two groups
+group1 = [25, 30, 35, 40, 45]
+group2 = [20, 22, 24, 26, 28]
+
+# Perform the two-sample t-test
+t_stat, p_value = stats.ttest_ind(group1, group2)
+
+# Print the results
+print("t-statistic:", t_stat)
+print("p-value:", p_value)  
+```
+```
+t-statistic: 3.3333333333333335
+p-value: 0.014937765459710322
+```
+
+```
+alpha = 0.05  # Example significance level
+if p_value < alpha:
+    print("Reject the null hypothesis: There  
+ is a significant difference between the means of the two groups.")
+else:
+    print("Fail to reject the null hypothesis: There is no significant difference between the means of the two groups.")  
+```
+```
+Reject the null hypothesis: There is a significant difference between the means of the two groups.
+```
+
 
 # ANOVA Test (F One-Way Test)
 
@@ -120,12 +192,42 @@ ANOVA works by comparing the variance of **group means** to the **variance withi
 
 It allows us to test **3 or more groups at once**. 
 
+F-tests compare the variance between groups to the variance within groups.
+
 The traditional F-test ANOVA assumes that **all groups have equal variances.**
 
-Null Hypothesis: All of the group means are equal. 
+**Null Hypothesis:** All of the group means are **equal**. 
 
-Alternative Hypothesis: At least one mean is different. 
+**Alternative Hypothesis:** At least one mean is **different**. 
 
+```
+# Sample data for three groups
+group1 = [10, 15, 12, 18, 14] #mean: 13.8
+group2 = [20, 25, 22, 28, 24] #mean: 22.8
+group3 = [5, 8, 7, 10, 9] #mean: 7.8
 
-# Chi-Squared Tests
+# Perform the one-way ANOVA test
+f_statistic, p_value = stats.f_oneway(group1, group2, group3)
 
+# Print, round the values to 2 decimal places
+f_statistic = round(f_statistic, 2)
+p_value = round(p_value, 2)
+```
+```
+F-statistic: 44.34
+p-value: 0.00 
+```
+In this case our p-value is incredibly small!
+
+```
+alpha = 0.05  
+if p_value < alpha:
+    print("Reject the null hypothesis: There  
+ is a significant difference between the means of the groups.")
+else:
+    print("Fail to reject the null hypothesis: There is no significant difference between the means of the groups.")  
+```
+```
+Reject the null hypothesis: There is a significant difference between the means of the groups.
+```
+This confirms that yes, at least one mean is significantly different! However, it does not tell us which group (or groups) are the outliers. 
