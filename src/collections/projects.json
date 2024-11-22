@@ -6,8 +6,14 @@
         "url": "https://github.com/mcumiskey/Meeple-Matchmaker?tab=readme-ov-file"
     },
 	{
+		"name": "Chicago Car Crash Analysis",
+		"description": "Led a team of three creating a report on the causes of fatal accidents for 15-22 year old drivers in Chicago using accident reports from the Chicago Data Portal using machine learning techniques and python.",
+		"image": "/assets/images/projects/car_crashes.png",
+		"url": "https://github.com/Jmanitou/Chicago_Car_Crash_Analysis"
+	},
+	{
 		"name": "Donsol - IOS Implementation",
-		"description": "Recreation of the Card Game by John Eternal",
+		"description": "Recreation of the Card Game by John Eternal using the Composable Architecture library for Swift to expand knowledge of unit testing and building applications with modular components.",
 		"image": "/assets/images/projects/Donsol.png",
 		"url": "https://github.com/mcumiskey/Donsol"
 	},
