@@ -46,7 +46,7 @@ Unlike Vita, I have had Gran Caffe's (non-secret) italian food, and they have a 
 
 Their gelato offerings do not change often, but their flavors are all very well-balanced and high quality. I believe in choosing the options that sound most italian, but always ask the server their favorites. No one has led me astray yet!
 
-# Jeni’s ★★★★☆ (4/5)
+# [Jeni’s](https://jenis.com/) ★★★★☆ (4/5)
 **Flavors Sampled:** I've Had So Many Oh No 
 
 Jeni's has fun seasonal varieties, good texture, good flavor. It's genuinely enjoyable ice cream that comes with two little waffle pieces, which are perfect. 
@@ -54,4 +54,22 @@ Jeni's has fun seasonal varieties, good texture, good flavor. It's genuinely enj
 It's not a local brand, but it's in a very convenient location for quick pick up ice creams. 
 
 Darkest chocolate is specifically good to have as a pint for milkshakes. 
+
+# [Weckerlys](https://www.weckerlys.com/) ★★★★★ (5/5)
+**Flavors Sampled:** Lemon Berry Graham, Tea Time, Short n' Stout 
+
+THE FLAVORS! 
+
+Weckerly's rotating flavors are all wonderful. I haven't had a ton of time to return, but each visit has been a joy. They have some incredibly niche options, and are constantly innovating. 
+
+# [Franklin Fountain](https://franklinfountain.com/) ★★☆☆☆ (1/5)
+**Flavors Sampled:** Matcha, Cotton Candy (against my will)
+
+Franklin Fountain does not let you sample flavors. :( 
+
+While they had some interesting seasonal options such as corn, pumpkin, and passionfruit, you can't test them! As matcha is generally my favorite, I opted for it for a fair review, and the texture was incredibly thick and chalky. 
+
+My partner's Cotton Candy was also thick, but a better texture overall. Unfortunately Cotton Candy is the worst flavor for anything so while he enjoyed it, I did not. 
+
+I'm also morally opposed to anyone who charges more than $6 for a bottle of water. 
 

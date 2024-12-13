@@ -7,11 +7,11 @@ dateFormatted: May 31st, 2021
 
 # Fresh Start
 
-Fresh Start is a multidisciplinary public health projects aimed towards teaching college students 'mindful' drinking strategies through a narrative game as an alternative alcohol education program. The project was began by Dr. Yifeng Hu and Professor Josh Fishburn.
+Fresh Start was a multidisciplinary public health projects aimed towards teaching college students 'mindful' drinking strategies through a narrative game as an alternative alcohol education program. The project was founded by Dr. Yifeng Hu and Professor Josh Fishburn.
 
 ![Team Photo](/public/assets/images/posts/fs_team.jpg)
 
-*All screenshots are from the 2019 build of the project. The project remains a collaborative effort, and does not represent the work of one student. However, pieces that I worked on are highlighted.*
+*All screenshots are from the 2019 build of the project, which I worked on. The project remains a collaborative effort, and does not represent the work of one student. However, pieces that I worked on are highlighted.*
 
 ## Publications:  
 
@@ -19,10 +19,8 @@ Our work was highlighted by [The College of New Jersey](https://news.tcnj.edu/20
 
 The team also published two abstracts to the 2020 Digital Games Research Association (DiGRA) conference:
 
-[Overview](http://www.digra.org/digital-library/publications/fresh-start-an-innovative-video-game-to-educate-first-year-college-students-about-mindful-drinking/)
-
-
-[Reflections on Design Process](http://www.digra.org/digital-library/publications/reflection-on-a-design-process-for-an-educational-game-on-mindful-drinking/ )
+- [Overview](http://www.digra.org/digital-library/publications/fresh-start-an-innovative-video-game-to-educate-first-year-college-students-about-mindful-drinking/)
+- [Reflections on Design Process](http://www.digra.org/digital-library/publications/reflection-on-a-design-process-for-an-educational-game-on-mindful-drinking/ )
 
 ## Programming Role: 
 
@@ -49,6 +47,7 @@ Once again, the design is focused on trial-and-error, and players are not scored
 As a multidisciplinary team member, I was responsible for background design, asset creation for all mini-games, and assisting our character artist.
 
 ![TCNJ Dorms](/public/assets/images/posts/fs_background.png)
+
 
 ![Off-Campus Party Kitchen](/public/assets/images/posts/fs_background_party.png)
 

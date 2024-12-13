@@ -7,17 +7,24 @@
 		"logo": "/assets/images/experiences/gameU.png"
 	},
 	{
-		"dates": "July 2023 · June 2024",
+		"dates": "2023 · 2024",
 		"role": "Americorps VISTA for Digital Inclusion",
 		"company": "Drexel University",
 		"description": "Created data-driven reports for the Drexel Digital Navigator nonprofit for use in grant reporting.",
 		"logo": "/assets/images/experiences/drexel.png"
 	},
 	{
-		"dates": "2021 · Present ",
+		"dates": "2021 · 2022 ",
+		"role": "Product Designer",
+		"company": "Universum",
+		"description": "Design and develop presentations and perform data analysis and aggregation for Universum on a freelance basis.Design and develop presentations and perform data analysis and aggregation for Universum on a freelance basis.",
+		"logo": "/assets/images/experiences/universum.jpg"
+	},
+	{
+		"dates": "2020 · 2021 ",
 		"role": "Intern",
 		"company": "Oxford Communications",
-		"description": "Teach game design classes, adapting industry-standard software for use with assistive technology such as screen readers and alternative input devices.",
+		"description": "Worked in quantitative Data Analysis for various advertising campaigns to create aggregate reports and validate data.",
 		"logo": "/assets/images/experiences/OX.png"
 	}
 ]
