@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+#WIP Posts
+src/content/WIPs
+src/collections/website.code-workspace
