@@ -62,7 +62,7 @@ THE FLAVORS!
 
 Weckerly's rotating flavors are all wonderful. I haven't had a ton of time to return, but each visit has been a joy. They have some incredibly niche options, and are constantly innovating. 
 
-# [Franklin Fountain](https://franklinfountain.com/) ★★☆☆☆ (1/5)
+# [Franklin Fountain](https://franklinfountain.com/) ★★☆☆☆ (2/5)
 **Flavors Sampled:** Matcha, Cotton Candy (against my will)
 
 Franklin Fountain does not let you sample flavors. :( 
