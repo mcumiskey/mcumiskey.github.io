@@ -1,19 +1,15 @@
 ---
 layout: ../../layouts/post.astro
-title: WIP
+title: Web Scraping for Visualizations 
 description: Learning to Web Scrape for a visualization about dog breeds. 
 dateFormatted: December 20th, 2024
 ---
 
 # The Goal 
 
-I absolutely love dogs! When I decided to make an application for [The Information Lab]() I thought that they could make for an interesting and engaging visualization. 
-
-[add some volunteer photos]
+Capture the data for my [American Kennel Club Visualization.](https://public.tableau.com/app/profile/miles.cumiskey/viz/Dogs_17376027073670/GeneralDashboard)
 
 I also find dog breeds incredibly interesting. Humans have selectively been choosing traits for their pooches for centuries, and now it's codified into a competition. 
-
-[add info wanted from dog pages]
 
 My general goal was to explore some of the overall trends for dogs in the AKC, but also provide a dynamic visualization of each breed to showcase them a little bit. 
 
@@ -21,9 +17,9 @@ To do that, I needed data.
 
 # The Plan
 
-I actually started learning how to web scrape for my [Board Game Recommendation System](), as I needed to get Board Game Geeks IDs in order to use the API, but with a limited timeframe, when my one day expiriment didn't get the results I needed, I used an existing dataset from Kaggle. 
+I actually started learning how to web scrape for my [Board Game Recommendation System](https://github.com/mcumiskey/Meeple-Matchmaker), as I needed to get Board Game Geeks IDs in order to use the API, but with a limited timeframe, when my one day expiriment didn't get the results I needed, I used an existing dataset from Kaggle. 
 
-There are already AKC scrapes on [Kaggle]() (and on [Github]()), but with a little more time for this project, I wanted to challenge myself a little. 
+There are already AKC scrapes on Kaggle (and on Github), but with a little more time for this project, I wanted to challenge myself a little. 
 
 I broke the data collection into three steps, in order of perceived difficulty:
 - get the rankings for all dog breeds from 2013-2024
@@ -144,6 +140,33 @@ return df
 ```
 Luckily, as the lists always start at the top breed (1) and alternate between rank and dog, a few if statements were all I needed to capture the data and standardize it. 
 
+## Dealing with Oddball names
+```python
+def standardize_breed_name(breed):
+    #check if it is a string just in case
+    if isinstance(breed, str):
+        # remove plural "s" at the end for breeds like "Pointers", "Retrievers", "Spaniels", etc.
+        breed = re.sub(r'\s?(s)$', '', breed)  
+        breed = re.sub(r's\s$', '', breed) #really enforce no s
+        
+        # handle the case where a breed has the format "Dog (Specific Type)"
+        match = re.match(r'([a-zA-Z\s]+)\s?\(([^)]+)\)', breed)
+        if match:
+            # reformat to "Specific Type Dog"
+            return f"{match.group(2)} {match.group(1)}"
+        
+        # replace non-breaking space with regular space
+        breed = breed.replace('\xa0', ' ')
+        
+        #aggressively getting rid of the s does hurt the malligator, fix her
+        if breed == 'Belgian Malinoi':
+            breed = 'Belgian Malinois'
+    
+    return breed
+```
+
+We absolutely do not live in a perfect world, so I also had to put together a function to standardize the breed names. 
+
 ## Step One: Done!
 Once I had grabbed the ranking for each year, I moved on to getting the link for each breed. Nothing Particularly interesting, but the code is available [on my Github]() for those who are interested. 
 
@@ -241,8 +264,10 @@ From there I read and stored the basic information in a DataFrame and exported i
 
 Since the world still isn't perfect, I did a little bit of data cleaning in python before I went to Tableau. 
 
-A few values had been read oddly due to using fractions instead of decimal places, some html was hanging out in the descriptions, and a few values were missing. 
+A few values had been read oddly due to using fractions instead of decimal places, some html was hanging out in the descriptions, and a few values were missing. If you are curious, you can check out the full clean on my [github.](https://github.com/mcumiskey/AKC-data-collection/blob/main/AKC_Data.ipynb)*
+
+* warning, this is a normal working file and not beautiful! 
 
 # The "Too-Much" Impulse
 
-I've made custom icons. 
+I've made custom icons. For many different shapes of dogs. Even while typing this I feel the urge to make more. 
